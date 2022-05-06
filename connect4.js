@@ -194,7 +194,7 @@ function checkForWin() {
 }
 
 function startOver(){
-  let restart = document.createElement("button");
+  const restart = document.createElement("button");
   restart.innerText = "Start the Game Again";
   const body = document.querySelector("body");
   body.prepend(restart);
